@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/HeroSection.css';
 import '../App.css';
 import { Button } from '../components/Button'
@@ -21,7 +22,7 @@ const HeroSection = () => {
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={console.log('hey')}
+                    //onClick={console.log('hey')}
                 >
                 WATCH TRAILER <i className='far fa-play-circle' />
                 </Button>
