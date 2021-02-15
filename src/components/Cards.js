@@ -16,7 +16,7 @@ const Cards = () => {
               path='/services'
             />
             <CardItem
-              src= 'images/img-9.jpg'
+              src= '/images/img-9.jpg'
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
