@@ -1,22 +1,21 @@
 import React from 'react';
 import '../styles/HeroSection.css';
 import '../App.css';
-import { Button } from '../components/Button'
-
+import { Button } from '../components/Button';
 
 const HeroSection = () => {
-    return ( 
-        <div className="hero-container">
+    return (
+        <div className='hero-container'>
             <video src='../assets/videos/video-2.mp4' autoPlay loop muted />
-            <h1>ADVENTURE AWAITS</h1>
-            <p>What are you waiting for?</p>
+            <h1>Do you want to play?</h1>
+            <p>Let's play !</p>
             <div className='hero-btns'>
                 <Button
                     className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
-                GET STARTED
+                    GET STARTED
                 </Button>
                 <Button
                     className='btns'
@@ -24,11 +23,11 @@ const HeroSection = () => {
                     buttonSize='btn--large'
                     //onClick={console.log('hey')}
                 >
-                WATCH TRAILER <i className='far fa-play-circle' />
+                    WATCH TRAILER <i className='far fa-play-circle' />
                 </Button>
             </div>
         </div>
     );
-}
- 
+};
+
 export default HeroSection;
