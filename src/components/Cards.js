@@ -3,11 +3,16 @@ import '../styles/Cards.css';
 import CardItem from './CardItem';
 
 //Images
-import dinoBlanco from '../assets/images/dinoBlanco.png';
+// import dinoBlanco from '../assets/images/dinoBlanco.png';
 import dinoRosa from '../assets/images/dinorosa.png';
 import dinoVerde from '../assets/images/dinoverde.png';
-import dinoNegro from '../assets/images/dinoNegro.png';
-import dinoRayado from '../assets/images/dinoRayado.png';
+// import dinoNegro from '../assets/images/dinoNegro.png';
+// import dinoRayado from '../assets/images/dinoRayado.png';
+
+//Videos
+import JeepDown from '../assets/videos/jeep.mp4';
+import winpunches from '../assets/videos/win-punches.mp4';
+import animaciongulag from '../assets/videos/animaciongulag.mp4';
 
 const Cards = () => {
     return (
@@ -17,8 +22,8 @@ const Cards = () => {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src={dinoBlanco}
-                            text='Amazing Cod Play'
+                            src={JeepDown}
+                            text='Get out of the car |  WARZONE'
                             label='Cod'
                             path='/services'
                         />
@@ -31,8 +36,8 @@ const Cards = () => {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src={dinoNegro}
-                            text='Amazing Cod Play'
+                            src={animaciongulag}
+                            text='Watch your back | WARZONE'
                             label='Cod'
                             path='/services'
                         />
@@ -40,13 +45,13 @@ const Cards = () => {
                             src={dinoRosa}
                             text='Amazing LoL Play'
                             label='Lol'
-                            path='/products'
+                            path='/services'
                         />
                         <CardItem
-                            src={dinoRayado}
-                            text='Amazing Cod Play'
+                            src={winpunches}
+                            text='Punch to win | WARZONE'
                             label='Cod'
-                            path='/sign-up'
+                            path='/services'
                         />
                     </ul>
                 </div>

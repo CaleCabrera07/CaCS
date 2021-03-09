@@ -86,7 +86,13 @@ const Navbar = () => {
                         </li> */}
                     </ul>
                     {button && (
-                        <Button buttonStyle='button--outline'>Join!</Button>
+                        <Button
+                            buttonStyle='button--outline'
+                            linkto='https://www.youtube.com/channel/UCXU1ohhGUZCAqjLJWM-QvCQ'
+                            target='_blank'
+                        >
+                            Join!
+                        </Button>
                     )}
                 </div>
             </nav>
