@@ -1,7 +1,14 @@
 import React from 'react';
 import '../App.css';
+import MediaCard from '../components/MediaCard';
 
 //PRODUCTS = COMMUNITY
-export default function Products() {
-    return <h1 className='products'>COMMUNITY</h1>;
-}
+const Products = () => {
+    return (
+        <>
+            <MediaCard />
+        </>
+    );
+};
+
+export default Products;

@@ -1,0 +1,130 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: #363636;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: 0.5s;
+    -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+        -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+        12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+        -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+        -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+        12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+        -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(255, 255, 255, 0);
+}
+
+.box:hover {
+    width: 350px;
+    height: 350px;
+}
+
+.box .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box .imgBx img {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.box:hover .imgBx img {
+    opacity: 1;
+}
+
+/* .box:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: 0;
+}
+
+.box:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    left: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+    filter: blur(40px);
+} */
+
+.box .content {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover .content {
+    opacity: 1;
+}
+
+.box .content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* .box .content h2 span {
+    font-size: 14;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #fff;
+} */
+
+.title {
+    position: absolute;
+    top: 175px;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font: 500;
+    color: rgb(224, 224, 224);
+    -webkit-box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+        -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+        12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+        -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488,
+        -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff,
+        12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b,
+        -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}

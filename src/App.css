@@ -19,12 +19,11 @@
 /* --- SERVICES / GAMING --- */
 .services {
     /* background-image: url('./assets/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
     background: linear-gradient(to bottom, #111111 0%, #444444 100%);
     color: #fff;
-    font-size: 100px;
 }
 
 /* --- PRODUCTS / COMMUNITY --- */
@@ -35,7 +34,6 @@
     background-repeat: no-repeat; */
     background: linear-gradient(to bottom, #111111 0%, #444444 100%);
     color: #fff;
-    font-size: 100px;
 }
 
 /* .sign-up {

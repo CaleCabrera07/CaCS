@@ -1,7 +1,14 @@
 import React from 'react';
 import '../App.css';
+import GameCard from '../components/GameCard';
 
 //SERVICES = GAMING
-export default function Services() {
-    return <h1 className='services'>GAMING</h1>;
-}
+const Services = () => {
+    return (
+        <>
+            <GameCard />
+        </>
+    );
+};
+
+export default Services;
