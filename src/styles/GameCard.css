@@ -1,0 +1,81 @@
+.container__gaming {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #363636;
+    height: 40vh;
+}
+
+.box__gaming {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    width: 400px;
+    height: 300px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.content img.stats {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #ff52b4;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.cod h3 {
+    color: #1ed5c3;
+}
+
+.gameplay {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #ff52b4, 2px 5px 16px 0px #ff26a1,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #ff52b4, 2px 5px 16px 0px #ff26a1,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.gameplay-cod {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1ed5c3, 2px 5px 16px 0px #16a597,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #1ed5c3, 2px 5px 16px 0px #16a597,
+        5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.banner {
+    text-align: center;
+}
