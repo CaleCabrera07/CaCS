@@ -5,6 +5,7 @@ import '../styles/GameCard.css';
 import lolIcon from '../assets/images/lol.png';
 import codIcon from '../assets/images/cod.png';
 import stats from '../assets/images/stats.png';
+import banner from '../assets/images/banner.png';
 
 import winpunches from '../assets/videos/win-punches.mp4';
 
@@ -24,6 +25,10 @@ const GameCard = () => {
                     </div>
                 </div>
                 <div className='box__gaming'>
+                    <h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dicta vero consectetur non ipsa aspernatur deserunt.
+                    </h2>
                     <video
                         src={winpunches}
                         className='gameplay'
@@ -44,9 +49,13 @@ const GameCard = () => {
                     </div>
                 </div>
             </div>
-            <div className='banner'>
-                <h2>BANNER</h2>
+
+            <div className='banner__container'>
+                <div className='banner'>
+                    <img src={banner} alt='banner cacs' />
+                </div>
             </div>
+
             <div className='container__gaming'>
                 <div className='box__gaming'>
                     <div className='content cod'>
