@@ -8,31 +8,31 @@ const Footer = () => {
         <div className='footer-container'>
             {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+            Join the Adventure newsletter to receive our best vacation deals
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+            You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
+        <form>
+                <input
+                className='footer-input'
+                name='email'
+                type='email'
+                placeholder='Your Email'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
+        </form>
         </div>
       </section> */}
             <div class='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <h2>About</h2>
+                        <Link to='/about'>Who I am</Link>
+                        <Link to='/about'>What games do I play?</Link>
+                        <Link to='/about'>Where do I live?</Link>
+                        <Link to='/about'>FQAs</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
@@ -66,11 +66,11 @@ const Footer = () => {
                         </a>
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Destinations</Link>
-                        <Link to='/'>Sponsorships</Link>
+                        <h2>Contact</h2>
+                        <Link to='/contact'>Contact</Link>
+                        <Link to='/contact'>Profesionnal Business</Link>
+                        <Link to='/contact'>Sponsorships</Link>
+                        <Link to='/products'>Community</Link>
                     </div>
                 </div>
                 {/* <div className='footer-link-wrapper'>

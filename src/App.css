@@ -5,6 +5,20 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+    width: 0.27rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(#1ed5c3, #ff52b4);
+    filter: blur(40px);
+}
+
 .home,
 .services,
 .products,

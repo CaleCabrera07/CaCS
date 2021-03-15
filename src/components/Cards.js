@@ -2,17 +2,12 @@ import React from 'react';
 import '../styles/Cards.css';
 import CardItem from './CardItem';
 
-//Images
-// import dinoBlanco from '../assets/images/dinoBlanco.png';
-import dinoRosa from '../assets/images/dinorosa.png';
-import dinoVerde from '../assets/images/dinoverde.png';
-// import dinoNegro from '../assets/images/dinoNegro.png';
-// import dinoRayado from '../assets/images/dinoRayado.png';
-
 //Videos
 import JeepDown from '../assets/videos/jeep.mp4';
 import winpunches from '../assets/videos/win-punches.mp4';
 import animaciongulag from '../assets/videos/animaciongulag.mp4';
+import yone from '../assets/videos/yone.mp4';
+import nidalee from '../assets/videos/nidalee.mp4';
 
 const Cards = () => {
     return (
@@ -28,8 +23,8 @@ const Cards = () => {
                             path='/services'
                         />
                         <CardItem
-                            src={dinoVerde}
-                            text='Amazing LoL Play'
+                            src={yone}
+                            text='Nobody loves Teemo'
                             label='LoL'
                             path='/services'
                         />
@@ -42,8 +37,8 @@ const Cards = () => {
                             path='/services'
                         />
                         <CardItem
-                            src={dinoRosa}
-                            text='Amazing LoL Play'
+                            src={nidalee}
+                            text='One shot One kill'
                             label='Lol'
                             path='/services'
                         />

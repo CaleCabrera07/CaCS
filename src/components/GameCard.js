@@ -7,7 +7,8 @@ import codIcon from '../assets/images/cod.png';
 import stats from '../assets/images/stats.png';
 import banner from '../assets/images/banner.png';
 
-import winpunches from '../assets/videos/win-punches.mp4';
+import sniperplay from '../assets/videos/sniperplay.mp4';
+import caitlyn from '../assets/videos/caitlyn.mp4';
 
 //Serives = Gaming
 const GameCard = () => {
@@ -25,12 +26,8 @@ const GameCard = () => {
                     </div>
                 </div>
                 <div className='box__gaming'>
-                    <h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dicta vero consectetur non ipsa aspernatur deserunt.
-                    </h2>
                     <video
-                        src={winpunches}
+                        src={caitlyn}
                         className='gameplay'
                         autoPlay
                         loop
@@ -42,6 +39,7 @@ const GameCard = () => {
                         <img src={stats} alt='stats icon' className='stats' />
                         <h3>Stats</h3>
                         <p>
+                            Position: Mid / Supp. <br />
                             LAN: CaleCabrera07 | GOLD IV <br />
                             NA: AbortoePerro | Unranked <br />
                             EUW: KilodeChorizo | Unranked <br />
@@ -72,7 +70,7 @@ const GameCard = () => {
 
                 <div className='box__gaming'>
                     <video
-                        src={winpunches}
+                        src={sniperplay}
                         className='gameplay-cod'
                         autoPlay
                         loop
