@@ -27,8 +27,8 @@ const AboutPage = () => {
                         </a>
                         <div className='answer-pink'>
                             <p>
-                                I'm currently living in Toronto, CA. Although
-                                I'm originally from Venezuela.
+                                I'm currently living in Toronto, CA. I'm
+                                originally from Venezuela tho.
                             </p>
                         </div>
                     </div>
@@ -41,10 +41,10 @@ const AboutPage = () => {
                         </a>
                         <div className='answer-pink'>
                             <p>
-                                I play League of Legends in LAN regularly and NA
-                                / EUW from time to time. <br />I also play Call
-                                of Duty (Warzone) with friends almost every
-                                night.
+                                I play League of Legends in LAN regularly and I
+                                also play in NA / EUW from time to time. <br />I
+                                also play Call of Duty (Warzone) with friends
+                                almost every night.
                             </p>
                         </div>
                     </div>
