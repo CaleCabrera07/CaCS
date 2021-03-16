@@ -15,7 +15,7 @@ const HeroSection = () => {
                     className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
-                    linkto='https://cacs.netlify.app/services'
+                    linkto='https://www.youtube.com/channel/UCXU1ohhGUZCAqjLJWM-QvCQ'
                 >
                     GET STARTED
                 </Button>
