@@ -16,6 +16,7 @@ const HeroSection = () => {
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                     linkto='https://www.youtube.com/channel/UCXU1ohhGUZCAqjLJWM-QvCQ'
+                    target='_blank'
                 >
                     GET STARTED
                 </Button>

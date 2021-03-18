@@ -87,7 +87,7 @@
         5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-.banner__container{
+.banner__container {
     width: 100%;
     height: 230px;
 }
@@ -95,43 +95,69 @@
 .banner img {
     width: 100%;
     height: 230px;
-    object-fit: fill;    
+    object-fit: fill;
 }
 
 @media (max-width: 1024) {
-    .box__gaming > video{
+    .box__gaming > video {
         display: block;
         margin: 0 auto;
     }
 }
 
-
 @media (max-width: 860px) {
     .container__gaming {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #363636;
-    width: 100%;
-    height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #363636;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .box__gaming {
+        width: 80%;
+        height: 0px;
+    }
+
+    .gameplay,
+    .gameplay-cod {
+        width: 250px;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .content p {
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+
+    .content img {
+        margin-top: 50px;
+    }
+    .content img.stats {
+        margin-bottom: 10px;
+        display: none;
+    }
 }
 
-.box__gaming {
-    width: 80%;
-    height: 0px;
-}
+@media (max-width: 425px) {
+    .box__gaming:nth-child(2) {
+        display: none;
+    }
 
-.box__gaming:nth-child(2){
-    /* display: none; */
-}
+    .content h3 {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
 
-.content img{
-    margin-top: 50px;
-}
-.content img.stats {
-    margin-bottom: 10px;
-    display: none;
-}
+    .content p {
+        font-size: 1.1rem;
+        margin-bottom: 60px;
+    }
 }

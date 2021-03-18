@@ -73,6 +73,12 @@ video {
 }
 
 @media screen and (max-width: 450px) {
+    .hero-container {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: right;
+    }
+
     .hero-container > h1 {
         font-size: 35px;
     }
