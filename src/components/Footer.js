@@ -40,6 +40,7 @@ const Footer = () => {
                             href='https://www.youtube.com/channel/UCXU1ohhGUZCAqjLJWM-QvCQ'
                             target='_blank'
                             aria-label='Youtube'
+                            rel='noopener'
                         >
                             Youtube
                         </a>
@@ -47,6 +48,7 @@ const Footer = () => {
                             href='https://www.instagram.com/cacs__ig/'
                             target='_blank'
                             aria-label='Instagram'
+                            rel='noopener'
                         >
                             Instagram
                         </a>
@@ -54,6 +56,7 @@ const Footer = () => {
                             href='https://twitter.com/cacs__tw'
                             target='_blank'
                             aria-label='Twitter'
+                            rel='noopener'
                         >
                             Twitter
                         </a>
@@ -61,6 +64,7 @@ const Footer = () => {
                             href='https://www.tiktok.com/@cacs__tiktok?'
                             target='_blank'
                             aria-label='TikTok'
+                            rel='noopener'
                         >
                             Tiktok
                         </a>
@@ -98,6 +102,7 @@ const Footer = () => {
                             href='https://www.youtube.com/channel/UCXU1ohhGUZCAqjLJWM-QvCQ'
                             target='_blank'
                             aria-label='Youtube'
+                            rel='noopener'
                         >
                             <i class='fab fa-youtube' />
                         </a>
@@ -106,6 +111,7 @@ const Footer = () => {
                             href='https://www.instagram.com/cacs__ig/'
                             target='_blank'
                             aria-label='Instagram'
+                            rel='noopener'
                         >
                             <i class='fab fa-instagram' />
                         </a>
@@ -114,6 +120,7 @@ const Footer = () => {
                             href='https://twitter.com/cacs__tw'
                             target='_blank'
                             aria-label='Twitter'
+                            rel='noopener'
                         >
                             <i class='fab fa-twitter' />
                         </a>
@@ -122,6 +129,7 @@ const Footer = () => {
                             href='https://www.tiktok.com/@cacs__tiktok?'
                             target='_blank'
                             aria-label='TikTok'
+                            rel='noopener'
                         >
                             <i class='fab fa-tiktok' />
                         </a>
