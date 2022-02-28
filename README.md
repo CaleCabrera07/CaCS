@@ -1,6 +1,6 @@
 # CaCS Website
 
-[CaCS](https://cacs.netlify.app/) gaming website.
+CaCS gaming website.
 
 ### Features
 
